@@ -1,73 +1,26 @@
-<h1 align="center">Js Biglietto Treno Form</h1>
+esercizio di oggi: calcolo del prezzo del biglietto del treno
+cartella/repo js-biglietto-treno-form
 
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/js-biglietto-treno-form?color=56BEB8">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/js-biglietto-treno-form?color=56BEB8">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/js-biglietto-treno-form?color=56BEB8">
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/js-biglietto-treno-form?color=56BEB8">
-</p>
+Descrizione:
+Scrivere un programma che chieda all’utente:
+Il numero di chilometri da percorrere
+Età del passeggero
+Sulla base di queste informazioni dovrà calcolare il prezzo totale del biglietto di viaggio, secondo le seguenti regole:
+il prezzo del biglietto è definito in base ai km (0.21 € al km)
+va applicato uno sconto del 20% per i minorenni
+va applicato uno sconto del 40% per gli over 65.
 
-<p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
-</p>
+MILESTONE 1:
+Iniziamo implementando il programma senza alcuna estetica: usando esclusivamente due input e un bottone (non stilizzati), realizziamo le specifiche scritte sopra. La risposta finale (o output) sarà anch’essa da scrivere in console. 
 
-<br>
+MILESTONE 2:
+Solo una volta che il milestone 1 sarà completo e funzionante allora realizzeremo un form in pagina in cui l’utente potrà inserire i dati e visualizzare il calcolo finale con il prezzo. 
+Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagina (il prezzo dovrà essere formattato con massimo due decimali, per indicare i centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 
-## :dart: About ##
+MILESTONE 3:
+Ora che la logica è funzionante in pagina, possiamo andare a dedicarci allo stile, raffinando la parte di HTML e CSS in modo da renderla esteticamente gradevole.
 
-Describe your project
+Numero di push minimo: 7
 
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
-
-## :rocket: Technologies ##
-
-The following tools were used in this project:
-
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-
-## :white_check_mark: Requirements ##
-
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
-
-## :checkered_flag: Starting ##
-
-```bash
-# Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/js-biglietto-treno-form
-
-# Access
-$ cd js-biglietto-treno-form
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
-```
-
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
-
-
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
-
-&#xa0;
-
-<a href="#top">Back to top</a>
+Nota:
+Se non vi sentite particolarmente creativi, questa potrebbe essere un’implementazione da seguire per il secondo milestone. Potete scegliere di implementare una soluzione completamente diversa oppure simile, ma in ogni caso cercate di farla vostra. 
