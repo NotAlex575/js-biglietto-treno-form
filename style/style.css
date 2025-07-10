@@ -11,7 +11,8 @@ input {
 }
 
 .display-visibile{
-    display: block !important;
+    display: flex !important;
+    border: 1px solid black;
 }
 
 .h-150px{
