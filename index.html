@@ -16,11 +16,11 @@
                 <input type="text" class="form-control" id="nome-cognome">
              </div>
              <div class="col-4">
-                <label class="d-flex justify-content-center" for="km-da-percorrere">Km</label>
+                <label class="d-flex justify-content-center" for="km-da-percorrere">Km da percorrere</label>
                 <input type="number" class="form-control" id="km-da-percorrere">
              </div>
              <div class="col-4">
-                <label class="d-flex justify-content-center" class="form-label"><strong>Genere</strong></label>
+                <label class="d-flex justify-content-center" class="form-label"><strong>Fascia d'età</strong></label>
                     <select class="form-select" aria-label="Genere">
                         <option selected>Minorenne</option>
                         <option value="1">Maggiorenne</option>
@@ -31,10 +31,12 @@
          </div>
          <div class="row p-4">
             <div class="d-flex justify-content-center">
-                <button>Genera</button>
+                <button id="genera-info">Genera</button>
                 <button class="ms-5">Annulla</button>
             </div>
          </div>
+         <p id="test"></p>
     </div>
+    <script src="/script/script.js"></script>
 </body>
 </html>
