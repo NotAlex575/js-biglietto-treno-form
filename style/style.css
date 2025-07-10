@@ -15,6 +15,11 @@ input {
     border: 1px solid black;
 }
 
+.display-visibile-testo{
+    display: block;
+    text-align: center;
+}
+
 .h-150px{
     height: 150px;
 }
